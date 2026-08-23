@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
-import { AuthProvider } from './AuthContext'
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Dashboard from "./pages/Dashboard";
+import { AuthProvider } from './AuthContext';
+import Login from "./Login";
+import Register from "./Register";
+import Dashboard from "./Dashboard";
 import Settings from "./pages/Settings";
 import Devices from "./pages/Devices";
 
