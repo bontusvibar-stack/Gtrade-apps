@@ -3,8 +3,8 @@ import { AuthProvider } from './AuthContext';
 import Login from "./Login";
 import Register from "./Register";
 import Dashboard from "./Dashboard";
-import Settings from "./pages/Settings";
-import Devices from "./pages/Devices";
+import Settings from "./Settings";
+import Devices from "./Devices";
 
 function ProtectedRoute({ children }) {
   const { currentUser, loading } = useAuth();
