@@ -1,0 +1,21 @@
+{
+  "name": "gtrade",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gtrade project extracted from the uploaded JSX file",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "recharts": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest"
+  }
+}
